@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 100px 0;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
@@ -110,7 +110,7 @@ p {
   color: white;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
