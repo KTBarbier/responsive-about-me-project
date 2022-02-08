@@ -109,3 +109,19 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .project-images {
+    display: none;
+  }
+  .project-paragraphs {
+    text-align: center;
+  }
+}
